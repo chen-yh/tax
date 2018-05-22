@@ -1,0 +1,314 @@
+.header {
+    background: #70419f;
+}
+.register-main {
+    width: 684px;
+    height: 990px;
+    background: #f7f7f7;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    margin-top: 22px;
+    margin-bottom: 100px;
+    padding: 34px 52px;
+}
+.register-main h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.register-main h3 {
+    margin-bottom: 30px;
+}
+.register-msg {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.register-msg span {
+    padding-bottom: 10px;
+}
+.register-msg input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left:10px;
+}
+.register-msg .remarks {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.phone-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone-box .phone {
+    width: 70%;
+}
+.phone-box .getCode {
+    width: 25%;
+    height: 42px;
+    line-height: 42px;
+    background: #70419f;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 0;
+}
+.register-msg .trade, .register-msg .target {
+    width: 250px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
+.register-msg .m-sg {
+    width: 50%;
+    float: left;
+}
+.register-msg p {
+    padding-top: 20px;
+}
+
+.register-msg p:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.register-msg .tips {
+    height: 50px;
+    line-height: 50px;
+}
+.submitBtn {
+    background: #70419f;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+}
+
+.submitBtn span {
+    color: #fff;
+}
+
+.msg-center {
+    text-align: center;
+    padding-top: 20px;
+}
+.text-2869f6 {
+    color: #2869f6;
+}
+
+.registerType {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #efecf2;
+    height: 48px;
+}
+.registerType .p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 20%;
+}
+.registerType .p span {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 1px solid #e6e6e6;
+    padding-bottom: 0;
+    background: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerType .p span b {
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 3px;
+}
+.registerType .p span b.chooseActive {
+    width: 6px;
+    height: 6px;
+    background: #684280;
+    border-radius: 3px;
+}
+
+/*登录*/
+.wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.view {
+    background: url(../../static/img/bg_denglu.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    position: relative;
+}
+.view-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.view-logo {
+    min-width: 700px;
+    width: 50%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-left {
+    min-width: 400px;
+    width: 60%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, #8476a2, #3c2d68);
+    background: -o-linear-gradient(left, #8476a2, #3c2d68);
+    background: -moz-linear-gradient(left, #8476a2, #3c2d68);
+    background: linear-gradient(left, #8476a2, #3c2d68); 
+    background: url('../../static/img/bg_denglul.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    background-size: 100%;
+}
+.logo-right {
+    min-width: 360px;
+    width: 40%;
+    height: 100%;
+    background: #fff;
+    padding: 0 45px;
+    box-sizing: border-box;
+}
+.logo-right h2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.choose {
+    border-bottom: 1px solid #53347d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    position: relative;
+}
+.sel-list {
+    width: 100%;
+    background: #ececec;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: 55px;
+    z-index: 100;
+    overflow-y: scroll;
+}
+.sel-list li {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.sel-list li:hover {
+    background: #ccc;
+}
+.sel-list li:last-child {
+    border: none;
+}
+.remember {
+    margin-right: 10px;
+}
+.choose-remember {
+    color: #666;
+}
+.choose-remember, .choose-submit {
+    border: none;
+}
+.choose-submit {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 42px;
+}
+.login-submit {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    line-height: 42px;
+    text-align: center;
+    background: #6d4c9d;
+}
+::-webkit-input-placeholder {
+    color: #999;
+}
+.select, .username, .password {
+    height: 100%;
+    padding: 25px 0 6px 10px;
+    box-sizing: border-box;
+    width: 312px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #999;
+}
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 8px solid #6d4c9d;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    cursor: pointer;
+}
+.forget-password, .immediately {
+    color: #f99a00;
+}
+.tips {
+    color: #f99a00;
+    height: 15px;
+}
+.back {
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}

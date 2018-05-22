@@ -1,0 +1,22 @@
+<template>
+ <div>
+  <brand></brand>
+  <company></company>
+ </div>
+</template>
+<script type="text/javascript">
+import brand from '../../../components/base/brand'
+import company from '../../../components/common/company-edit'
+export default({
+  data () {
+    return {}
+  },
+  components: {
+    brand,
+    company
+  }
+})
+</script>
+<style type="text/css" scoped>
+	
+</style>

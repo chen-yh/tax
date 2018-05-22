@@ -1,0 +1,43 @@
+.left{
+  min-width:150px;
+  width:17%;
+  float: left;
+  background: #fff;
+  margin-right:10px;
+  padding-left:30px;
+  padding-bottom:50px;
+}
+.left dl{
+  margin-top:30px;
+}
+.left dl dt img{
+  width:16px;
+  float:left;
+  margin-right:14px;
+}
+.left dl dd ul{
+  margin-left:30px;
+}
+.left dl dd ul li{
+  padding-top:10px;
+  font-size:14px;
+  cursor:pointer;
+}
+.left dl dd ul li:hover{
+  color:#4e3879;
+  text-decoration: underline;
+}
+.left dl dd ul li a{
+  color:#666;
+}
+.left dl dd ul li a.active,.left dl dd ul li.active{
+  color:#4e3879;
+  font-weight:bold;
+}
+.left dl dt.outhome img,.left dl dt.oowayHome img,.left dl dt.server img{
+  margin-top:10px;
+}
+.left dl dt.myUser img{
+  margin-top:10px;
+  width:23px;
+}

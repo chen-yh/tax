@@ -1,0 +1,11 @@
+export const brand = state => state.brand
+export const parentBrand = state => state.parentBrand
+export const goodsNum = state => state.goodsNum
+export const loanDetail = state => state.loanDetail
+export const taxAllInfo = state => state.taxAllInfo
+export const formInfo = state => state.formInfo
+export const taxAllInfo2 = state => state.taxAllInfo2
+export const bankNames = state => state.bankNames
+export const repayMents = state => state.repayMents
+export const loanInfo = state => state.loanInfo
+export const repayInfo = state => state.repayInfo

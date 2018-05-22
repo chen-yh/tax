@@ -1,0 +1,323 @@
+.bg-hui-info{
+  background: #f8f8f8;
+  padding:18px 10px;
+  margin:10px 0;
+ }
+ .company-info{
+  display: flex;
+  justify-content: space-around;
+ }
+ .company-info dl{
+  flex:1;
+  padding:3px 1px;
+ }
+ .company-info dl:nth-child(1){
+  margin-left:-60px;
+ }
+ .company-info dl dt,.company-info dl dd{
+  float:left;
+  flex-wrap:wrap;
+ }
+ .company-info dl dt{
+  width:41%;
+  text-align:right;
+  padding-right:2px;
+  color:#222;
+  line-height: 34px;
+  font-weight:bold;
+  font-size:12px;
+ }
+ .company-info dl dd{
+  color:#666;
+  line-height:32px;
+  width:58%;
+  /*height:30px;*/
+  overflow: hidden;
+ }
+ /*dl*/
+ .company-info1 dl{
+  float:left;
+  width:45%;
+  padding:3px 1px;
+ }
+ .company-info1 dl:nth-child(1){
+  margin-left:-60px;
+ }
+ .company-info1 dl dt,.company-info dl dd{
+  float:left;
+  flex-wrap:wrap;
+ }
+ .company-info1 dl dt{
+  width:47%;
+  text-align:right;
+  padding-right:2px;
+  color:#222;
+  line-height: 32px;
+  font-weight:bold;
+ }
+ .company-info1 dl dd{
+  color:#666;
+  line-height:32px;
+ }
+ /**/
+ .shenfen{
+  display: flex;
+  padding:20px 10px;
+ }
+ .shenfen dl{
+  flex:1;
+  text-align:center;
+  line-height: 50px;
+  font-size:16px;
+ }
+ .shenfen dl img{
+  width:260px;
+ }
+ .shenfen dl dd img.img-size{
+  width:260px;
+  height:147px;
+ }
+
+ /*详情*/
+ .orange{
+ 	color:#f0830f;
+ }
+ .title2{
+ 	color:#666;
+ 	font-size:14px;
+ 	margin:20px 0 5px 0;
+ }
+.piaoju{
+	clear: both;
+	overflow: hidden;
+}
+.piaoju dl{
+	padding:20px;
+	border-bottom:solid 1px #eee;
+	clear:both;
+	overflow: hidden;
+}
+.piaoju dl dt,.piaoju dl dd{	
+	float:left;
+}
+.piaoju dl dt{
+	width:150px;
+	text-align:left;
+	padding-right:10px;
+	line-height:1000%;
+  font-weight:bold;
+}
+.piaoju dl dd{
+	width: 80%;
+}
+.piaoju dl img{
+	width:400px;
+}
+.piaoju dl dd.fapiao img{
+	width:200px;
+}
+/*两列数据*/
+.padd10{
+  padding:10px 20px;
+  text-align: left;
+  line-height:30px;
+}
+.btn-big-orange{
+  width:260px;
+  height:50px;
+  line-height:50px;
+  border-radius:6px;
+  background: #f5aa19;
+  color:#fff;
+  font-size:16px;
+  text-align:center;
+  margin:10px auto;
+  cursor: pointer;
+}
+.btn-big-orange a{
+  color:#fff;
+}
+
+/**申请**/
+.path{
+  display: flex;
+}
+.path dl{
+  flex:1;
+  clear:both;
+  overflow: hidden;
+}
+.path dl dt{
+  width:30px;
+  height:30px;
+  background:#ccc;
+  border-radius:50%;
+  color:#fff;
+  font-size:16px;
+  font-weight:bold;
+  float:left;
+  text-align:center;
+  line-height:30px;
+}
+.path dl.active  dt{
+  background: #f38329;
+}
+.path dl dd{
+  float:left;
+  margin-left:20px;
+  line-height:30px;
+}
+.company-info input[type="text"]{
+  height:30px;
+  width:140px;
+  padding:0 10px;
+}
+.company-info select{
+  height:32px;
+  width:180px;
+  line-height: 32px;  
+}
+.tit2{
+  position: relative;
+}
+.tit2 h3 img{
+  position: absolute;
+  left:90px;
+  top:-1px;
+  z-index: 100;
+  cursor: pointer;
+}
+.tit2 h3{
+  background: url(/static/img/arrow1.png) no-repeat right center;
+  background-size:14px;
+  border-bottom:solid 1px #ccc;
+  padding-bottom:10px;
+  margin-top:20px;
+}
+.tit2 h3.active{
+  background: url(/static/img/arrow1.png) no-repeat;
+}
+.icon-arrow{
+  display: inline-block;
+  float:right;
+  margin-top:-30px;
+  width:30px;
+  height:30px;
+  cursor: pointer;
+}
+.pic1{
+  max-width:63%;
+  min-width:62%;
+  float:left;
+}
+dl dd .pic1 img{
+  float:left;
+  width:150px;
+  margin:10px;
+}
+dl dd .f-pic1 img{
+  float:left;
+  width:200px;
+  margin:10px;
+}
+.pic-shouhui,.pic2,.pic3{
+  width:63%;
+  float:left;
+}
+.piaoju dl .pic-shouhui img{
+  width:185px;
+  margin-right:15px;
+}
+.btn-file{
+  float:right;
+  margin-top:20px;
+  text-align: center;
+  position: relative;
+}
+.btn-file8{
+  float: none;
+}
+.btn-file p{
+  color:#999;
+  font-size:12px;
+  padding-top: 10px;
+  margin-bottom:30px;
+}
+.set1{
+  font-size:16px;
+  padding:20px 110px;
+  line-height: 50px;
+}
+.set-money{
+  margin-bottom:30px;
+}
+.set1 div input.w200{
+  width:200px;
+  height:32px;
+}
+span.big-orange{
+  font-size:20px;
+  color:#f0830f;
+}
+.text-right{
+  text-align:right;
+}
+.mt40{
+  margin-top:45px;
+}
+.file{
+  position: relative;
+}
+.file-up,.file-up2{
+  position: absolute;
+  top:4px;
+  left:35px;
+  opacity:0;
+  height:40px;
+  z-index: 1000;
+  cursor: pointer;
+}
+.file-up input[type="file"],.file-up2 input[type="file"]{
+  height:40px;
+  position:absolute;
+  top:0;
+  left:0;
+  cursor: pointer;
+}
+.file-up2{
+  left:0;
+}
+/**发票*/
+.add-fapiao{
+  padding:5px 10px 5px 115px;
+  margin:1px 0;
+}
+.add-fapiao>div{
+  margin:5px 0;
+}
+.add-fapiao input[type=text]{
+  width:60px;
+  height:28px;
+  line-height: 28px;
+}
+.add-fapiao .btn-orange-small{
+  margin-top:10px;
+  display: inline-block;
+}
+#add-fapiao{
+  float:right;
+  margin-top:-36px;
+  margin-right:120px;
+}
+input[type=date]{
+  height:28px;
+}
+#yingye1,#yingye2,#yingye3{
+  height:290px;
+  overflow: hidden;
+  text-align:center;
+  padding-top:20px;
+}
+#yingye1 img,#yingye2 img,#yingye3 img{
+  width:180px;
+}
